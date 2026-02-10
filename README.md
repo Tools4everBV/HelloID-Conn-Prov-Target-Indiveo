@@ -34,7 +34,7 @@
 
 ## Introduction
 
-_HelloID-Conn-Prov-Target-Indiveo_ is a _target_ connector. _Indiveo_ provides a set of REST APIs that allow you to programmatically interact with its data.
+_HelloID-Conn-Prov-Target-Indiveo_ is a _target_ connector. _Indiveo_ provides a set of REST APIs that allow you to programmatically interact with its data..
 
 ## Supported features
 
