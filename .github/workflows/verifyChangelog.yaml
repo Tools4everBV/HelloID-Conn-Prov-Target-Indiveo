@@ -1,7 +1,3 @@
-####################################
-# Workflow: Verify CHANGELOG Updated
-# Version:  0.0.1
-####################################
 name: Workflow caller - verify changelog updated 
 on:
   pull_request:
