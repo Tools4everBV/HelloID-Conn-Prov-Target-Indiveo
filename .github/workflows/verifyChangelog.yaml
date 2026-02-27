@@ -1,7 +1,15 @@
 name: Workflow caller - verify changelog updated 
 on:
   pull_request:
-    types: [opened, synchronize]
+    types: [opened]
+    paths-ignore:
+      - 'INFO_NL.md'
+      - 'INFO_UK.md'
+      - 'INFO_FR'
+      - 'INFO_DE'
+      - 'INFO.md'
+      - 'Logo.png'
+      - 'Icon.png'
 
 jobs:
   verify-changelog:
