@@ -1,0 +1,12 @@
+name: PRValidations
+
+on:
+  pull_request:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  governance:
+    uses: Tools4everBV/.github/.github/workflows/PRGovernance.yaml@main
