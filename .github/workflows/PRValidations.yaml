@@ -1,5 +1,4 @@
 name: PRValidations
-
 on:
   pull_request:
 
