@@ -4,6 +4,6 @@ on:
     types: [closed]
 
 jobs:
-  verify-changelog:
+  create-release:
     if: github.event.pull_request.merged == true
     uses: Tools4everBV/.github/.github/workflows/createReleaseV6.yaml@main
