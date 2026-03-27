@@ -60,7 +60,7 @@ function ConvertTo-HelloIDAccountObject {
 #endregion
 
 try {
-    # Initial HelloID Assignments
+    # Initial Assignments
     $outputContext.AccountReference = 'Currently not available'
 
     # Adding headers
