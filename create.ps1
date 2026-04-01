@@ -67,7 +67,7 @@ try {
     $headers = [System.Collections.Generic.Dictionary[string, string]]::new()
     $headers.Add('Authorization', "Bearer $($actionContext.Configuration.Token)")
 
-    # Validate correlation configuration
+    # Validate helloid correlation configuration
     if ($actionContext.CorrelationConfiguration.Enabled) {
         $correlationField = $actionContext.CorrelationConfiguration.AccountField
         $correlationValue = $actionContext.CorrelationConfiguration.PersonFieldValue
