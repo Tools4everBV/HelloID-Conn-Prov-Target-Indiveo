@@ -1,6 +1,6 @@
 #################################################
 # HelloID-Conn-Prov-Target-Indiveo-Create
-# PowerShell V2 - T2
+# PowerShell V2
 #################################################
 
 # Enable TLS1.2
